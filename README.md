@@ -5,3 +5,9 @@ The Princeton University course, freely available on the Internet, allows to pra
 
 
 ## Assignment #1: [ScroogeCoin](./ScroogeCoin/Assignment1.pdf)
+
+This implements the class in
+
+ - `ScroogeCoin/TxHandler.java` (pass, graded 95/95),
+
+to check the functionality for the fictitious cryptocurrency *ScroogeCoin*, where Scrooge - a trusted entity - issues each token and validates it by cryptographically signing it.
