@@ -11,3 +11,6 @@ This implements the class in
  - `ScroogeCoin/TxHandler.java` (pass, graded 95/95),
 
 to check the functionality for the fictitious cryptocurrency *ScroogeCoin*, where Scrooge - a trusted entity - issues each token and validates it by cryptographically signing it.
+
+
+## Assignment #2: [ConsensusFromTrust](./ConsensusFromTrust/Assignment2.pdf)
