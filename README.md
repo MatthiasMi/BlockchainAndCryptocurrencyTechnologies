@@ -17,6 +17,10 @@ This implements an alternative method for a distributed ledger to resist [sybil 
 
 This implements the class in
  
- - `ConsensusFromTrust/CompliantNode.java` (timeout, graded 0/100), 
+- `ConsensusFromTrust/CompliantNode.java` (pass, graded 89/100),
 
-for the fictitious network reaching consensus among a majority.
+and tests
+ 
+- `ConsensusSimulationScript.sh`,
+ 
+to check the functionality for the fictitious network reaching consensus among a majority.
