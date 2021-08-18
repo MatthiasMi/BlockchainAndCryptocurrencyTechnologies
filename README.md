@@ -24,7 +24,7 @@ and tests
 - `ConsensusSimulationScript.sh`,
 - `ConsensusFromTrust/MainPA2.java`,
  
-to check the functionality for the fictitious network reaching consensus among a majority.
+to check the functionality for the fictitious network reaching consensus among a majority (reproducibly).
 
 To ease offline testing 
 `ConsensusFromTrust/MainPA2.java` provides the functionality to automatically test a specifiable amount of instantiations.
@@ -59,6 +59,10 @@ or MainPA2 individually
 
 `javac -cp ./bcprov-jdk15on-169.jar:ConsensusFromTrust ConsensusFromTrust/MainPA2.java`
 
-then execute test with
+then for testing with (default parametrization) execute
 
 `java -cp ./bcprov-jdk15on-169.jar:ConsensusFromTrust MainPA2`
+
+or for (reproducible) test results specifying each parameter (including the randomness seed, e.g., 42) like this
+
+`java -cp ./bcprov-jdk15on-169.jar:ConsensusFromTrust MainPA2 0.1 0.15 0.1 10 22 111 42`
