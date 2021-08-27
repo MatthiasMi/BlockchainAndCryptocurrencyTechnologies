@@ -8,6 +8,7 @@ The Princeton University course, freely available on the Internet, allows to pra
 This implements the class in
 
  - `ScroogeCoin/TxHandler.java` (pass, graded 95/95),
+ - `ScroogeCoin/MaxFeeTxHandler.java` (pass, graded 5/5),
 
 and test
 
