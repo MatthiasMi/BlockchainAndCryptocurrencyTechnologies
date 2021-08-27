@@ -9,7 +9,19 @@ This implements the class in
 
  - `ScroogeCoin/TxHandler.java` (pass, graded 95/95),
 
+and test
+
+ - `ScroogeCoin/MainPA1.java`,
+ 
 to check the functionality for the fictitious cryptocurrency *ScroogeCoin*, where Scrooge - a trusted entity - issues each token and validates it by cryptographically signing it.
+
+
+### Tests
+For GNU/Linux the following should compile and run tests (fodr Windows possibly replace ':', by ';' when setting the classpath).
+Compile with
+`javac ScroogeCoin/*.java -Xlint:deprecation -cp ./bcprov-jdk15on-169.jar`
+then run
+`java -cp ./bcprov-jdk15on-169.jar:ScroogeCoin MainPA1`
 
 
 ## Assignment #2: [ConsensusFromTrust](./ConsensusFromTrust/Assignment2.pdf)
