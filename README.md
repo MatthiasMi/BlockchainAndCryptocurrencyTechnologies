@@ -79,3 +79,8 @@ then for testing with (default parametrization) execute
 or for (reproducible) test results specifying each parameter (including the randomness seed, e.g., 42) like this
 
 `java -cp ./bcprov-jdk15on-169.jar:ConsensusFromTrust MainPA2 0.1 0.15 0.1 10 22 111 42`
+
+to check the functionality for the fictitious cryptocurrency *ScroogeCoin*, where Scrooge - a trusted entity - issues each token and validates it by cryptographically signing it.
+
+
+## Assignment #2: [ConsensusFromTrust](./ConsensusFromTrust/Assignment2.pdf)
