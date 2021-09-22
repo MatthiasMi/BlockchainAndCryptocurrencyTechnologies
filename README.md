@@ -103,4 +103,29 @@ For simplicitly, here we can assume that all `Transactions` the `CompliantNode` 
 The `Simulation` class will only send valid transactions over the network (both initially and between rounds), and only this class has the ability to create valid transactions.
 
 
+#### Grader Output
+Tests for this assignment involve your submitted miner competing with a number of different types of malicious miners:
 
+	Running test with parameters: numNodes = 100, p_graph = 0.1, p_malicious = 0.3, p_txDistribution = 0.01, numRounds = 10
+	On average 65 out of 72 of nodes reach consensus
+	
+	Running test with parameters: numNodes = 100, p_graph = 0.1, p_malicious = 0.3, p_txDistribution = 0.05, numRounds = 10
+	On average 72 out of 72 of nodes reach consensus
+	
+	Running test with parameters: numNodes = 100, p_graph = 0.1, p_malicious = 0.45, p_txDistribution = 0.01, numRounds = 10
+	On average 47 out of 58 of nodes reach consensus
+	
+	Running test with parameters: numNodes = 100, p_graph = 0.1, p_malicious = 0.45, p_txDistribution = 0.05, numRounds = 10
+	On average 52 out of 58 of nodes reach consensus
+	
+	Running test with parameters: numNodes = 100, p_graph = 0.2, p_malicious = 0.3, p_txDistribution = 0.01, numRounds = 10
+	On average 63 out of 76 of nodes reach consensus
+	
+	Running test with parameters: numNodes = 100, p_graph = 0.2, p_malicious = 0.3, p_txDistribution = 0.05, numRounds = 10
+	On average 71 out of 76 of nodes reach consensus
+	
+	Running test with parameters: numNodes = 100, p_graph = 0.2, p_malicious = 0.45, p_txDistribution = 0.01, numRounds = 10
+	On average 44 out of 54 of nodes reach consensus
+	
+	Running test with parameters: numNodes = 100, p_graph = 0.2, p_malicious = 0.45, p_txDistribution = 0.05, numRounds = 10
+	On average 48 out of 54 of nodes reach consensus

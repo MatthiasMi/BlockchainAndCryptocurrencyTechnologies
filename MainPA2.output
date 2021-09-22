@@ -1,0 +1,8 @@
+#java -cp ./bcprov-jdk15on-169.jar:ConsensusFromTrust MainPA2 0.1 0.15 0.1 10 22 111 42 > MainPA2.output
+Starting Simulation with parameters (p_graph, p_malicious, p_txDistribution, numRounds, numNodes, numTx, randomSeed = 42) : 0.1 0.15 0.10 10 22 111According to the parametrization, the random graph G(V, E) has |V| = 22 nodes and |E| = 2442 edges.
+
+Number of transaction ids that nodes believe achieving consensus on:
+Node 1: 13, Node 2: 87, Node 3: 57, Node 4: 57, Node 5: 85, Node 6: 57, Node 7: 57, Node 8: 57, Node 9: 57, Node 10: 60, Node 11: 57, Node 12: 85, Node 13: 78, Node 14: 16, Node 15: 8, Node 16: 78, Node 17: 20, Node 18: 57, Node 19: 57, Node 20: 16, Node 21: 20
+
+Simulation finished, consensus set of size 1 reached across all 22 nodes:
+[855048881]

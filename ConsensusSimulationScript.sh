@@ -21,7 +21,7 @@ CMD="java -cp ./bcprov-jdk15on-169.jar:ConsensusFromTrust/src/ Simulation"
 echo Enter number of tests to run, t \in {1, 2, ..., 54}, within 3 [sec]. t =
 read -t 3 t
 
-if [ -n ${t} -a "$t" -gt 0 -a "$t" -lt 55 ]; then
+if [ -n ${t} -a "${t}" -gt 0 -a "${t}" -lt 55 ]; then
     echo "t = ${t} is an integer \in {1, 2, ..., 54}."
 else
     echo "Invalid input: Running t=11 simulation..."
@@ -36,9 +36,9 @@ for i in .1 .2 .3; do
                 ((c++))
                 if [ "${c}" -gt "${t}" ]; then exit 1; fi
                 echo ======================================================
-                echo Run [$c / $t]: Simulation_{N=$numNodes, T=$numTxs} $i $j $k $r
+                echo Run [${c} / ${t}]: Simulation_{N=${numNodes}, T=${numTxs}} ${i} ${j} ${k} ${r}
                 echo ======================================================
-                $CMD $i $j $k $r
+                ${CMD} ${i} ${j} ${k} ${r}
             done
         done
     done
