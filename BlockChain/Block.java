@@ -1,9 +1,9 @@
-
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.PublicKey;
 import java.util.ArrayList;
 
+@SuppressWarnings( "deprecation" )
 public class Block {
 
     public static final double COINBASE = 25;

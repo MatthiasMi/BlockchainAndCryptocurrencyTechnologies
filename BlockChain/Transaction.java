@@ -1,4 +1,3 @@
-
 import java.nio.ByteBuffer;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -7,6 +6,7 @@ import java.security.interfaces.RSAPublicKey;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+@SuppressWarnings( "deprecation" )
 public class Transaction {
 
     public class Input {
