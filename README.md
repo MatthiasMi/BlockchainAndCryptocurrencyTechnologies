@@ -129,3 +129,36 @@ Tests for this assignment involve your submitted miner competing with a number o
 	
 	Running test with parameters: numNodes = 100, p_graph = 0.2, p_malicious = 0.45, p_txDistribution = 0.05, numRounds = 10
 	On average 48 out of 54 of nodes reach consensus
+	
+	
+
+
+## Assignment #3: [BlockChain](./BlockChain/Assignment3.pdf)
+This builds on top of Assignment #1 as it adds valid nodes to a blockchain achieving distributed consensus by handling incoming transactions and maintaining an updated data structure trusted by participating parties.
+
+This implements the class in
+
+- `BlockChain/BlockChain.java` (pass, graded 81/100),
+
+and test
+ 
+- `BlockChain/MainPA3.java`,
+ 
+to check the functionality for the fictitious network reaching consensus among a majority (reproducibly).
+
+To ease offline testing 
+`BlockChain/MainPA3.java` provides the functionality to automatically test a specifiable amount of instantiations.
+
+
+### Tests
+Compile all with
+
+`javac BlockChain/*.java -cp ./bcprov-jdk15on-169.jar`
+
+or MainPA3 individually
+
+`javac -cp ./bcprov-jdk15on-169.jar:BlockChain ConsensusFromTrust/MainPA3.java`
+
+then for testing with (default parametrization) execute
+
+`java -cp ./bcprov-jdk15on-169.jar:BlockChain MainPA3`
